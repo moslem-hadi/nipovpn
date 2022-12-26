@@ -98,7 +98,7 @@ function fncSetupExternalV2rayVmess {
 	fncExecCmd "$_EXTERNAL_IP" "$_EXTERNAL_SSH_PORT" "python3 /opt/tools/vmess2sub.py /opt/tools/output-vmess.json /opt/tools/output-vmess_v2rayN.html -l /opt/tools/output-vmess_v2rayN.lnk"
 	_vmessurl=$(fncExecCmd "$_EXTERNAL_IP" "$_EXTERNAL_SSH_PORT" "cat /opt/tools/output-vmess_v2rayN.lnk")
 	echo ""
-	echo "> Your VMESS url is as following inport it to your client device"
+	echo "> Your VMESS url is as following import it to your client device"
 	echo "$_vmessurl"
 }
 # End of Function fncSetupExternalV2rayVmess
@@ -128,7 +128,7 @@ function fncSetupExternalV2rayVmessWs {
 	fncExecCmd "$_EXTERNAL_IP" "$_EXTERNAL_SSH_PORT" "python3 /opt/tools/vmess2sub.py /opt/tools/output-vmess.json /opt/tools/output-vmess_v2rayN.html -l /opt/tools/output-vmess_v2rayN.lnk"
 	_vmessurl=$(fncExecCmd "$_EXTERNAL_IP" "$_EXTERNAL_SSH_PORT" "cat /opt/tools/output-vmess_v2rayN.lnk")
 	echo ""
-	echo "> Your VMESS url is as following inport it to your client device"
+	echo "> Your VMESS url is as following import it to your client device"
 	echo "$_vmessurl"
 }
 # End of Function fncSetupExternalV2rayVmessWs
